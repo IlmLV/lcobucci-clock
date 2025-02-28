@@ -1,5 +1,5 @@
 {
-    "name": "lcobucci/clock",
+    "name": "ilmlv/lcobucci-clock",
     "description": "Yet another clock abstraction",
     "license": "MIT",
     "type": "library",
@@ -7,10 +7,16 @@
         {
             "name": "Luís Cobucci",
             "email": "lcobucci@gmail.com"
+        },
+        {
+            "name": "Ilmārs Kluss"
         }
     ],
+    "replace": {
+        "lcobucci/clock": "3.0.0"
+    },
     "require": {
-        "php": "~8.1.0 || ~8.2.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "psr/clock": "^1.0"
     },
     "require-dev": {
